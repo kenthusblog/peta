@@ -54,8 +54,8 @@
 				gumasLayer.bindPopup(
 					`<table nowrap class="table table-bordered">
 										<tr style ="line-height: 10px">
-											<td nowrap>Nama Kecamatan : </td>
-											<td nowrap><b>`+kec.feature.properties.Kecamatan+`<b></td>
+											<td nowrap>Nama: </td>
+											<td nowrap><b>`+kec.feature.properties.nama+`<b></td>
 											
 										</tr>
 										<tr style ="line-height: 15px">
@@ -128,7 +128,7 @@
 				}
 			}
 		
-			var map = L.map('map').setView([-1.1015078,113.8669906], 9);
+			var map = L.map('map').setView([-8.057627908618077, 111.63007662923322], 9);
 			
 			
 			L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
