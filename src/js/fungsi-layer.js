@@ -55,20 +55,20 @@
 					`<table nowrap class="table table-bordered">
 										<tr style ="line-height: 10px">
 											<td nowrap>Nama: </td>
-											<td nowrap><b>`+kec.feature.properties.nama+`<b></td>
+											<td nowrap><b>`+feature.properties.nama+`<b></td>
 											
 										</tr>
 										<tr style ="line-height: 15px">
-											<td nowrap>Ibu Kota Kecamatan : </td>
-											<td nowrap>`+kec.feature.properties.ibukota_ke+`</td>
+											<td nowrap>NIK : </td>
+											<td nowrap>`+feature.properties.nik+`</td>
 										</tr>
 										<tr style ="line-height: 10px">
 											<td nowrap>Luas Kecamatan : </td>
-											<td nowrap>`+kec.feature.properties.luas_km2+` Km<sup>2</sup</td>
+											<td nowrap>`+feature.properties.luas_km2+` Km<sup>2</sup</td>
 										</tr>
 										<tr style ="line-height: 12px">
 											<td nowrap>Jumlah Desa : </td>
-											<td nowrap>`+kec.feature.properties.jumlah_desa+` Desa</td>
+											<td nowrap>`+feature.properties.jumlah_desa+` Desa</td>
 										</tr>
 					</table>`
 				)
