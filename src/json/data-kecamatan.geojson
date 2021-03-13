@@ -1,8 +1,8 @@
-var gumas = {
-"type": "Feature",
-"name": "kecamatan",
+var gumas =
 
-"features": [
+{
+  "type": "FeatureCollection",
+  "features": [
     {
       "type": "Feature",
       "id": "bidangtanah.1",
@@ -26029,7 +26029,7 @@ var gumas = {
   "totalFeatures": 543,
   "numberMatched": 543,
   "numberReturned": 543,
-  "timeStamp": "2021-03-12T20:47:09.761Z",
+  "timeStamp": "2021-03-13T07:37:12.009Z",
   "crs": {
     "type": "name",
     "properties": {
