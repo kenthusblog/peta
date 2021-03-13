@@ -128,7 +128,7 @@
 				}
 			}
 		
-			var map = L.map('map').setView([-8.057627908618077, 111.63007662923322], 9);
+			var map = L.map('map').setView([-8.247644653400158, 111.67520591485132], 9);
 			
 			
 			L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
